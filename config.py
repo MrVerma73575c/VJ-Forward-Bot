@@ -10,7 +10,7 @@ class Config:
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Mohit1:Mohit1@mohit1.uhdxa.mongodb.net/?retryWrites=true&w=majority&appName=Mohit1")
-    DATABASE_NAME = environ.get("DATABASE_NAME", "vj-forward-bot")
+    DATABASE_NAME = environ.get("DATABASE_NAME", "Mohit1")
     BOT_OWNER = int(environ.get("BOT_OWNER", "2044702863"))
 
 # Don't Remove Credit Tg - @VJ_Botz
