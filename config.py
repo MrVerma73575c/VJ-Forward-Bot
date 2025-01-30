@@ -8,7 +8,7 @@ class Config:
     API_ID = int(environ.get("API_ID", "27547358"))
     API_HASH = environ.get("API_HASH", "675a9c08fc93de993ae6aff91d25bf29")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
-    BOT_SESSION = environ.get("BOT_SESSION", "vjbot") 
+    BOT_SESSION = environ.get("BOT_SESSION", "itzofficialverma") 
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Mohit1:Mohit1@mohit1.uhdxa.mongodb.net/?retryWrites=true&w=majority&appName=Mohit1")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Mohit1")
     BOT_OWNER = int(environ.get("BOT_OWNER", "2044702863"))
